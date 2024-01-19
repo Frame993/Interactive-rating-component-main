@@ -117,6 +117,18 @@ body {
     text-align: center;
 }
 
+.rating button:hover {
+    cursor: pointer;
+    background-color: var(--Medium-Grey);
+    color: var(--White);
+}
+
+.rating button:focus {
+    cursor: pointer;
+    background-color: var(--Orange);
+    color: var(--White);
+}
+
 p {
     color: var(--Medium-Grey);
     line-height: 1.6;
