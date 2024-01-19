@@ -108,6 +108,7 @@ body {
     height: 48px;
     justify-content: center;
     align-items: center;
+    font-family: 'Overpass', sans-serif;
     background-color: var(--Dark-Blue);
     color: var(--Light-Grey);
     font-weight: 700;
