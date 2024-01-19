@@ -1,7 +1,14 @@
 const btnSubmit = document.querySelector(".Submit-button");
+const containerTop =   document.querySelector(".container-top")
+const containerUnder = document.querySelector(".container-under")
 
 btnSubmit.addEventListener("click", () => {
-    document.querySelector(".container-top").classList.add("hidden");
-    document.querySelector(".container-under").classList.remove("hidden");
+    containerTop.classList.add("hidden");
+    containerUnder.classList.remove("hidden");
 })
 
+
+document.addEventListener('click', () => {
+    
+ 
+})

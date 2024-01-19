@@ -139,3 +139,8 @@ p {
     border-radius: 32px;
     
 }
+ .Submit-button:hover {
+    cursor: pointer;
+    background-color: var(--White);
+    color: var(--Orange);
+}
