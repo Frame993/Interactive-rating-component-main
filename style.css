@@ -63,6 +63,9 @@ body {
 
 .active {
    display: flex;
+   cursor: pointer;
+   background-color: var(--Orange) !important;
+   color: var(--White) !important;
 }
 
 .hidden {
@@ -124,11 +127,9 @@ body {
     color: var(--White);
 }
 
-.rating button:focus {
-    cursor: pointer;
-    background-color: var(--Orange);
-    color: var(--White);
-}
+/* .rating button:focus {
+    
+} */
 
 p {
     color: var(--Medium-Grey);
